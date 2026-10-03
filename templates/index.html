@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Time Table Assistant</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <div class="logo-icon">🤖</div>
+            <div>
+                <h2>AI Timetable</h2>
+                <span>Assistant</span>
+            </div>
+        </div>
+
+        <nav>
+            <button class="nav-btn active" onclick="showDashboard()">
+                🏠 <span>Dashboard</span>
+            </button>
+
+            <button class="nav-btn" onclick="askBot('What is my timetable today?')">
+                📅 <span>Today's Classes</span>
+            </button>
+
+            <button class="nav-btn" onclick="askBot('What classes do I have tomorrow?')">
+                📆 <span>Tomorrow</span>
+            </button>
+
+            <button class="nav-btn" onclick="askBot('My batch')">
+                👥 <span>My Batch</span>
+            </button>
+
+            <button class="nav-btn" onclick="showFullTimetable()">
+                🗓️ <span>Full Timetable</span>
+            </button>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <div class="status">
+                <span class="status-dot"></span>
+                AI Assistant Online
+            </div>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- HEADER -->
+        <header class="header">
+
+            <div>
+                <h1>AI Time Table Assistant</h1>
+                <p>Your smart academic timetable companion</p>
+            </div>
+
+            <div class="header-badge">
+                🤖 AI Powered
+            </div>
+
+        </header>
+
+
+        <!-- DASHBOARD -->
+        <section id="dashboard">
+
+            <div class="welcome">
+                <div>
+                    <h2>Welcome 👋</h2>
+                    <p>
+                        Enter your roll number and let the assistant manage
+                        your timetable automatically.
+                    </p>
+                </div>
+
+                <button onclick="focusChat()" class="primary-btn">
+                    💬 Ask Assistant
+                </button>
+            </div>
+
+
+            <!-- CARDS -->
+            <div class="cards">
+
+                <div class="card">
+                    <div class="card-icon">📅</div>
+                    <div>
+                        <span>Today</span>
+                        <h3 id="todayName">Loading...</h3>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">📆</div>
+                    <div>
+                        <span>Tomorrow</span>
+                        <h3 id="tomorrowName">Loading...</h3>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">👥</div>
+                    <div>
+                        <span>Your Batch</span>
+                        <h3 id="batchDisplay">Not Set</h3>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- SCHEDULE -->
+            <div class="section-title">
+                <div>
+                    <h2>Today's Schedule</h2>
+                    <p>Your classes for today</p>
+                </div>
+            </div>
+
+            <div id="schedule" class="schedule">
+                <div class="empty-state">
+                    <div>📚</div>
+                    <h3>Enter your roll number</h3>
+                    <p>
+                        Tell the AI your roll number to load your personalized
+                        timetable.
+                    </p>
+
+                    <button onclick="focusChat()" class="primary-btn">
+                        Enter Roll Number
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- FULL TIMETABLE -->
+        <section id="fullTimetable" class="hidden">
+
+            <div class="section-title">
+                <div>
+                    <h2>Full Week Timetable</h2>
+                    <p>Your complete weekly schedule</p>
+                </div>
+
+                <button onclick="showDashboard()" class="secondary-btn">
+                    ← Dashboard
+                </button>
+            </div>
+
+            <div id="fullTimetableContent" class="full-timetable">
+                Loading timetable...
+            </div>
+
+        </section>
+
+
+        <!-- AI ASSISTANT -->
+        <section class="assistant-section">
+
+            <div class="assistant-header">
+                <div>
+                    <h2>🤖 AI Assistant</h2>
+                    <p>Ask anything about your timetable</p>
+                </div>
+            </div>
+
+
+            <div id="chatBox" class="chat-box">
+
+                <div class="message bot-message">
+                    <div class="avatar">🤖</div>
+
+                    <div class="message-content">
+                        <b>AI Assistant</b>
+
+                        <p>
+                            Hello! 👋<br><br>
+                            I am your AI Time Table Assistant.<br><br>
+                            Please tell me your roll number first.<br><br>
+                            Example:
+                            <b>My roll number is 34</b>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- QUICK QUESTIONS -->
+            <div class="quick-actions">
+
+                <button onclick="askBot('What is my timetable today?')">
+                    📅 Today
+                </button>
+
+                <button onclick="askBot('What classes do I have tomorrow?')">
+                    📆 Tomorrow
+                </button>
+
+                <button onclick="askBot('My batch')">
+                    👥 My Batch
+                </button>
+
+                <button onclick="showFullTimetable()">
+                    🗓️ Full Timetable
+                </button>
+
+            </div>
+
+
+            <!-- INPUT -->
+            <div class="chat-input-area">
+
+                <input
+                    type="text"
+                    id="messageInput"
+                    placeholder="Ask about your timetable..."
+                    autocomplete="off"
+                >
+
+                <button onclick="sendMessage()" class="send-btn">
+                    ➤
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

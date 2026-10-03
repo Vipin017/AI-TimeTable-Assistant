@@ -1,0 +1,18 @@
+{
+    "T1": {
+        "roll_start": 1,
+        "roll_end": 23
+    },
+    "T2": {
+        "roll_start": 24,
+        "roll_end": 46
+    },
+    "T3": {
+        "roll_start": 47,
+        "roll_end": 69
+    },
+    "T4": {
+        "roll_start": 70,
+        "roll_end": 92
+    }
+}

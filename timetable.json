@@ -1,0 +1,453 @@
+{
+    "Monday": [
+        {
+            "time": "9:30 AM - 10:30 AM",
+            "subject": "Computer Networks (CN)",
+            "teacher": "SVS",
+            "room": "226"
+        },
+        {
+            "time": "10:30 AM - 11:30 AM",
+            "subject": "Automata Theory (AT)",
+            "teacher": "NPB",
+            "room": "226"
+        },
+        {
+            "time": "11:30 AM - 12:15 PM",
+            "subject": "Lunch Break",
+            "room": ""
+        },
+        {
+            "time": "12:15 PM - 1:15 PM",
+            "subject": "Revision",
+            "room": ""
+        },
+        {
+            "time": "1:15 PM - 2:15 PM",
+            "subject": "Artificial Intelligence (AI)",
+            "teacher": "GPD",
+            "room": "226"
+        },
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "subject": "Tea Break",
+            "room": ""
+        },
+        {
+            "time": "2:30 PM - 3:30 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "NPB",
+            "room": "CGPL",
+            "batch": "T1"
+        },
+        {
+            "time": "2:30 PM - 3:30 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "NSK",
+            "room": "PRJL",
+            "batch": "T2"
+        },
+        {
+            "time": "2:30 PM - 3:30 PM",
+            "subject": "Drone Technology Lab (DTL)",
+            "teacher": "SBJ",
+            "room": "CI1",
+            "batch": "T4"
+        },
+        {
+            "time": "3:30 PM - 4:30 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "NPB",
+            "room": "CGPL",
+            "batch": "T1"
+        },
+        {
+            "time": "3:30 PM - 4:30 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "NSK",
+            "room": "PRJL",
+            "batch": "T2"
+        },
+        {
+            "time": "3:30 PM - 4:30 PM",
+            "subject": "Drone Technology Lab (DTL)",
+            "teacher": "SBJ",
+            "room": "CI1",
+            "batch": "T4"
+        }
+    ],
+
+    "Tuesday": [
+        {
+            "time": "9:30 AM - 10:30 AM",
+            "subject": "Drone Technology (DT)",
+            "teacher": "SBJ",
+            "room": "226"
+        },
+        {
+            "time": "10:30 AM - 11:30 AM",
+            "subject": "Artificial Intelligence (AI)",
+            "teacher": "GPD",
+            "room": "226"
+        },
+        {
+            "time": "11:30 AM - 12:15 PM",
+            "subject": "Lunch Break",
+            "room": ""
+        },
+        {
+            "time": "12:15 PM - 1:15 PM",
+            "subject": "Automata Theory (AT)",
+            "teacher": "NPB",
+            "room": "226"
+        },
+        {
+            "time": "1:15 PM - 2:15 PM",
+            "subject": "Artificial Intelligence (AI)",
+            "teacher": "GPD",
+            "room": "226"
+        },
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "subject": "Tea Break",
+            "room": ""
+        },
+        {
+            "time": "2:30 PM - 3:30 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "NPB",
+            "room": "CGPL",
+            "batch": "T1"
+        },
+        {
+            "time": "2:30 PM - 3:30 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "NSK",
+            "room": "PRJL",
+            "batch": "T2"
+        },
+        {
+            "time": "2:30 PM - 3:30 PM",
+            "subject": "Drone Technology Lab (DTL)",
+            "teacher": "SBJ",
+            "room": "CI1",
+            "batch": "T3"
+        },
+        {
+            "time": "2:30 PM - 3:30 PM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "SSW",
+            "room": "SL",
+            "batch": "T4"
+        },
+        {
+            "time": "3:30 PM - 4:30 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "NPB",
+            "room": "CGPL",
+            "batch": "T1"
+        },
+        {
+            "time": "3:30 PM - 4:30 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "NSK",
+            "room": "PRJL",
+            "batch": "T2"
+        },
+        {
+            "time": "3:30 PM - 4:30 PM",
+            "subject": "Drone Technology Lab (DTL)",
+            "teacher": "SBJ",
+            "room": "CI1",
+            "batch": "T3"
+        },
+        {
+            "time": "3:30 PM - 4:30 PM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "SSW",
+            "room": "SL",
+            "batch": "T4"
+        }
+    ],
+
+    "Wednesday": [
+        {
+            "time": "9:30 AM - 10:30 AM",
+            "subject": "Automata Theory (AT)",
+            "teacher": "NPB",
+            "room": "226"
+        },
+        {
+            "time": "10:30 AM - 11:30 AM",
+            "subject": "Computer Networks (CN)",
+            "teacher": "SVS",
+            "room": "226"
+        },
+        {
+            "time": "11:30 AM - 12:15 PM",
+            "subject": "Lunch Break",
+            "room": ""
+        },
+        {
+            "time": "12:15 PM - 1:15 PM",
+            "subject": "Drone Technology Lab (DTL)",
+            "teacher": "SBJ",
+            "room": "CI1",
+            "batch": "T1"
+        },
+        {
+            "time": "12:15 PM - 1:15 PM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "SVS",
+            "room": "CSL",
+            "batch": "T2"
+        },
+        {
+            "time": "12:15 PM - 1:15 PM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "KAC",
+            "room": "CNL",
+            "batch": "T3"
+        },
+        {
+            "time": "12:15 PM - 1:15 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "VKD",
+            "room": "HL",
+            "batch": "T4"
+        },
+        {
+            "time": "1:15 PM - 2:15 PM",
+            "subject": "Drone Technology Lab (DTL)",
+            "teacher": "SBJ",
+            "room": "CI1",
+            "batch": "T1"
+        },
+        {
+            "time": "1:15 PM - 2:15 PM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "SVS",
+            "room": "CSL",
+            "batch": "T2"
+        },
+        {
+            "time": "1:15 PM - 2:15 PM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "KAC",
+            "room": "CNL",
+            "batch": "T3"
+        },
+        {
+            "time": "1:15 PM - 2:15 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "VKD",
+            "room": "HL",
+            "batch": "T4"
+        },
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "subject": "Tea Break",
+            "room": ""
+        },
+        {
+            "time": "2:30 PM - 3:30 PM",
+            "subject": "Environmental Studies (ES)",
+            "teacher": "MSD",
+            "room": "226"
+        },
+        {
+            "time": "3:30 PM - 4:30 PM",
+            "subject": "Environmental Studies (ES)",
+            "teacher": "MSD",
+            "room": "226"
+        }
+    ],
+
+    "Thursday": [
+        {
+            "time": "9:30 AM - 10:30 AM",
+            "subject": "Drone Technology (DT)",
+            "teacher": "SBJ",
+            "room": "226"
+        },
+        {
+            "time": "10:30 AM - 11:30 AM",
+            "subject": "Computer Networks (CN)",
+            "teacher": "SVS",
+            "room": "226"
+        },
+        {
+            "time": "11:30 AM - 12:15 PM",
+            "subject": "Lunch Break",
+            "room": ""
+        },
+        {
+            "time": "12:15 PM - 1:15 PM",
+            "subject": "Artificial Intelligence (AI)",
+            "teacher": "GPD",
+            "room": "226"
+        },
+        {
+            "time": "1:15 PM - 2:15 PM",
+            "subject": "Open Elective (OE)",
+            "room": "226"
+        },
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "subject": "Tea Break",
+            "room": ""
+        },
+        {
+            "time": "2:30 PM - 3:30 PM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "SVS",
+            "room": "SL",
+            "batch": "T1"
+        },
+        {
+            "time": "2:30 PM - 3:30 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "VKD",
+            "room": "HL",
+            "batch": "T3"
+        },
+        {
+            "time": "3:30 PM - 4:30 PM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "SVS",
+            "room": "SL",
+            "batch": "T1"
+        },
+        {
+            "time": "3:30 PM - 4:30 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "VKD",
+            "room": "HL",
+            "batch": "T3"
+        }
+    ],
+
+    "Friday": [
+        {
+            "time": "9:30 AM - 10:30 AM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "SVS",
+            "room": "SL",
+            "batch": "T1"
+        },
+        {
+            "time": "9:30 AM - 10:30 AM",
+            "subject": "Drone Technology Lab (DTL)",
+            "teacher": "SBJ",
+            "room": "CI1",
+            "batch": "T2"
+        },
+        {
+            "time": "9:30 AM - 10:30 AM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "KAC",
+            "room": "CNL",
+            "batch": "T3"
+        },
+        {
+            "time": "9:30 AM - 10:30 AM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "VKD",
+            "room": "HL",
+            "batch": "T4"
+        },
+        {
+            "time": "10:30 AM - 11:30 AM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "SVS",
+            "room": "SL",
+            "batch": "T1"
+        },
+        {
+            "time": "10:30 AM - 11:30 AM",
+            "subject": "Drone Technology Lab (DTL)",
+            "teacher": "SBJ",
+            "room": "CI1",
+            "batch": "T2"
+        },
+        {
+            "time": "10:30 AM - 11:30 AM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "KAC",
+            "room": "CNL",
+            "batch": "T3"
+        },
+        {
+            "time": "10:30 AM - 11:30 AM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "VKD",
+            "room": "HL",
+            "batch": "T4"
+        },
+        {
+            "time": "11:30 AM - 12:15 PM",
+            "subject": "Lunch Break",
+            "room": ""
+        },
+        {
+            "time": "12:15 PM - 1:15 PM",
+            "subject": "Automata Theory (AT)",
+            "teacher": "NPB",
+            "room": "226"
+        },
+        {
+            "time": "1:15 PM - 2:15 PM",
+            "subject": "Open Elective (OE)",
+            "room": "226"
+        },
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "subject": "Tea Break",
+            "room": ""
+        },
+        {
+            "time": "2:30 PM - 3:30 PM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "SVS",
+            "room": "CSL",
+            "batch": "T2"
+        },
+        {
+            "time": "2:30 PM - 3:30 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "VKD",
+            "room": "HL",
+            "batch": "T3"
+        },
+        {
+            "time": "2:30 PM - 3:30 PM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "SSW",
+            "room": "SL",
+            "batch": "T4"
+        },
+        {
+            "time": "3:30 PM - 4:30 PM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "SVS",
+            "room": "CSL",
+            "batch": "T2"
+        },
+        {
+            "time": "3:30 PM - 4:30 PM",
+            "subject": "Artificial Intelligence Lab (AIL)",
+            "teacher": "VKD",
+            "room": "HL",
+            "batch": "T3"
+        },
+        {
+            "time": "3:30 PM - 4:30 PM",
+            "subject": "Computer Networks Lab (CNL)",
+            "teacher": "SSW",
+            "room": "SL",
+            "batch": "T4"
+        }
+    ],
+
+    "Saturday": []
+}
